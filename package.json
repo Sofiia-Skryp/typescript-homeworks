@@ -1,0 +1,23 @@
+{
+  "name": "typescript-homeworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofiia-Skryp/typescript-homeworks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sofiia-Skryp/typescript-homeworks/issues"
+  },
+  "homepage": "https://github.com/Sofiia-Skryp/typescript-homeworks#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
