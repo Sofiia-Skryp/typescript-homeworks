@@ -25,8 +25,8 @@ console.log("Pick, 'id' | 'name'>:", pickedUser);
 //Record<string, User>: об'єкт користувачів за ключами
 
 const userRecord: Record<string, User> = {
-    user: { id:1, name: "Joo", email: "joo@example.com" },
-    user: {id: 2, name: "Jin", email: "jin@example.com" },
+    user1: { id:1, name: "Joo", email: "joo@example.com" },
+    user2: {id: 2, name: "Jin", email: "jin@example.com" },
 };
 console.log("Record<string, User>:", userRecord);
 
@@ -35,7 +35,7 @@ console.log("Record<string, User>:", userRecord);
 const readonlyUser: Readonly<User> = {
     id: 10,
     name: "Jack",
-    email: "jack@example",
+    email: "jack@example.com",
 };
 console.log("Readonly<User>:", readonlyUser);
 
