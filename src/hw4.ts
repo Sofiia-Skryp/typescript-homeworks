@@ -1,3 +1,4 @@
+
 enum OrderStatus {
   Pending = "pending",
   Shipped = "shipped",
@@ -5,15 +6,17 @@ enum OrderStatus {
   Cancelled = "cancelled",
 }
 
-const OrderStatusLabels: Record<OrderStatus, string> = {
-  [OrderStatus.Pending]: "Очікує обробки",
-  [OrderStatus.Shipped]: "Відправлено",
-  [OrderStatus.Delivered]: "Доставлено",
-  [OrderStatus.Cancelled]: "Скасовано",
+
+const OrderStatusLabels: Record<keyof typeof OrderStatus, string> = {
+  Pending: "Очікує обробки",
+  Shipped: "Відправлено",
+  Delivered: "Доставлено",
+  Cancelled: "Скасовано",
 };
 
-function getStatusLabel(status: OrderStatus): string {
-  return OrderStatusLabels[status];
+
+function getLabelByKey(key: keyof typeof OrderStatus): string {
+  return OrderStatusLabels[key];
 }
 
-console.log(getStatusLabel(OrderStatus.Shipped));
+console.log("🔑 Label for 'Shipped':", getLabelByKey("Shipped"));
