@@ -7,12 +7,12 @@ var OrderStatus;
     OrderStatus["Cancelled"] = "cancelled";
 })(OrderStatus || (OrderStatus = {}));
 const OrderStatusLabels = {
-    [OrderStatus.Pending]: "Очікує обробки",
-    [OrderStatus.Shipped]: "Відправлено",
-    [OrderStatus.Delivered]: "Доставлено",
-    [OrderStatus.Cancelled]: "Скасовано",
+    Pending: "Очікує обробки",
+    Shipped: "Відправлено",
+    Delivered: "Доставлено",
+    Cancelled: "Скасовано",
 };
-function getStatusLabel(status) {
-    return OrderStatusLabels[status];
+function getLabelByKey(key) {
+    return OrderStatusLabels[key];
 }
-console.log(getStatusLabel(OrderStatus.Shipped));
+console.log("🔑 Label for 'Shipped':", getLabelByKey("Shipped"));
