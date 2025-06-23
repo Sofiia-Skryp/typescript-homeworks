@@ -1,0 +1,77 @@
+Index: src/hw4.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>enum OrderStatus {\r\n  Pending = \"pending\",\r\n  Shipped = \"shipped\",\r\n  Delivered = \"delivered\",\r\n  Cancelled = \"cancelled\",\r\n}\r\n\r\nconst OrderStatusLabels: Record<OrderStatus, string> = {\r\n  [OrderStatus.Pending]: \"Очікує обробки\",\r\n  [OrderStatus.Shipped]: \"Відправлено\",\r\n  [OrderStatus.Delivered]: \"Доставлено\",\r\n  [OrderStatus.Cancelled]: \"Скасовано\",\r\n};\r\n\r\nfunction getStatusLabel(status: OrderStatus): string {\r\n  return OrderStatusLabels[status];\r\n}\r\n\r\nconsole.log(getStatusLabel(OrderStatus.Shipped));
+===================================================================
+diff --git a/src/hw4.ts b/src/hw4.ts
+--- a/src/hw4.ts	(revision 7b0d120bef6411eb638ea7042629a7d2b6bda317)
++++ b/src/hw4.ts	(date 1750673986467)
+@@ -1,3 +1,4 @@
++
+ enum OrderStatus {
+   Pending = "pending",
+   Shipped = "shipped",
+@@ -5,15 +6,18 @@
+   Cancelled = "cancelled",
+ }
+ 
+-const OrderStatusLabels: Record<OrderStatus, string> = {
+-  [OrderStatus.Pending]: "Очікує обробки",
+-  [OrderStatus.Shipped]: "Відправлено",
+-  [OrderStatus.Delivered]: "Доставлено",
+-  [OrderStatus.Cancelled]: "Скасовано",
++
++
++const OrderStatusLabels: Record<keyof typeof OrderStatus, string> = {
++  Pending: "Очікує обробки",
++  Shipped: "Відправлено",
++  Delivered: "Доставлено",
++  Cancelled: "Скасовано",
+ };
+ 
+-function getStatusLabel(status: OrderStatus): string {
+-  return OrderStatusLabels[status];
++
++function getLabelByKey(key: keyof typeof OrderStatus): string {
++  return OrderStatusLabels[key];
+ }
+ 
+-console.log(getStatusLabel(OrderStatus.Shipped));
+\ No newline at end of file
++console.log("🔑 Label for 'Shipped':", getLabelByKey("Shipped"));
+\ No newline at end of file
+Index: dist/hw4.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"use strict\";\r\nvar OrderStatus;\r\n(function (OrderStatus) {\r\n    OrderStatus[\"Pending\"] = \"pending\";\r\n    OrderStatus[\"Shipped\"] = \"shipped\";\r\n    OrderStatus[\"Delivered\"] = \"delivered\";\r\n    OrderStatus[\"Cancelled\"] = \"cancelled\";\r\n})(OrderStatus || (OrderStatus = {}));\r\nconst OrderStatusLabels = {\r\n    [OrderStatus.Pending]: \"Очікує обробки\",\r\n    [OrderStatus.Shipped]: \"Відправлено\",\r\n    [OrderStatus.Delivered]: \"Доставлено\",\r\n    [OrderStatus.Cancelled]: \"Скасовано\",\r\n};\r\nfunction getStatusLabel(status) {\r\n    return OrderStatusLabels[status];\r\n}\r\nconsole.log(getStatusLabel(OrderStatus.Shipped));\r\n
+===================================================================
+diff --git a/dist/hw4.js b/dist/hw4.js
+--- a/dist/hw4.js	(revision 7b0d120bef6411eb638ea7042629a7d2b6bda317)
++++ b/dist/hw4.js	(date 1750674135898)
+@@ -1,4 +1,3 @@
+-"use strict";
+ var OrderStatus;
+ (function (OrderStatus) {
+     OrderStatus["Pending"] = "pending";
+@@ -6,13 +5,13 @@
+     OrderStatus["Delivered"] = "delivered";
+     OrderStatus["Cancelled"] = "cancelled";
+ })(OrderStatus || (OrderStatus = {}));
+-const OrderStatusLabels = {
+-    [OrderStatus.Pending]: "Очікує обробки",
+-    [OrderStatus.Shipped]: "Відправлено",
+-    [OrderStatus.Delivered]: "Доставлено",
+-    [OrderStatus.Cancelled]: "Скасовано",
++var OrderStatusLabels = {
++    Pending: "Очікує обробки",
++    Shipped: "Відправлено",
++    Delivered: "Доставлено",
++    Cancelled: "Скасовано",
+ };
+-function getStatusLabel(status) {
+-    return OrderStatusLabels[status];
++function getLabelByKey(key) {
++    return OrderStatusLabels[key];
+ }
+-console.log(getStatusLabel(OrderStatus.Shipped));
++console.log("🔑 Label for 'Shipped':", getLabelByKey("Shipped"));

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ca4bdc4-3dc2-4a82-89bd-7f7c79372a2a" name="Changes" comment="add fixed hw 4">
+      <change afterPath="$PROJECT_DIR$/src/BattonDescription.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Login and password.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selectors.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HW4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yulianna-kyv&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sofiia-Skryp/typescript-homeworks&quot;,
+    &quot;accountId&quot;: &quot;e99d751f-eb15-4a9e-9822-05fdea327279&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Sofiia-Skryp&quot;,
+    &quot;repository&quot;: &quot;typescript-homeworks&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2yaQSZgCNCYnBCR9VaHAZGowMzd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "HW5",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Юліанна/IdeaProjects/typescript-homeworks"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Юліанна\IdeaProjects\typescript-homeworks\dist" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ca4bdc4-3dc2-4a82-89bd-7f7c79372a2a" name="Changes" comment="" />
+      <created>1750070204829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750070204829</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add homeworw 2">
+      <option name="closed" value="true" />
+      <created>1750162209483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750162209483</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add homeworw 2">
+      <option name="closed" value="true" />
+      <created>1750162218100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750162218100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add homework 2 виправила помилки">
+      <option name="closed" value="true" />
+      <created>1750236258830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750236258830</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add homework 3">
+      <option name="closed" value="true" />
+      <created>1750252975551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750252975551</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add homework 3">
+      <option name="closed" value="true" />
+      <created>1750252984587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750252984587</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add homework 4">
+      <option name="closed" value="true" />
+      <created>1750336798718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750336798718</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add fixed hw 4">
+      <option name="closed" value="true" />
+      <created>1750677692594</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750677692594</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add fixed hw 4">
+      <option name="closed" value="true" />
+      <created>1750677697717</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750677697717</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add homeworw 2" />
+    <MESSAGE value="add homework 2 виправила помилки" />
+    <MESSAGE value="add homework 3" />
+    <MESSAGE value="add homework 4" />
+    <MESSAGE value="add fixed hw 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fixed hw 4" />
+  </component>
+</project>
