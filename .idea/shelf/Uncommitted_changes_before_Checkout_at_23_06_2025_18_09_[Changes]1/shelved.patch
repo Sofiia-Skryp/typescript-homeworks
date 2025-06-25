@@ -1,0 +1,167 @@
+Index: package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"name\": \"typescript-homeworks\",\r\n  \"version\": \"1.0.0\",\r\n  \"lockfileVersion\": 3,\r\n  \"requires\": true,\r\n  \"packages\": {\r\n    \"\": {\r\n      \"name\": \"typescript-homeworks\",\r\n      \"version\": \"1.0.0\",\r\n      \"license\": \"ISC\",\r\n      \"devDependencies\": {\r\n        \"typescript\": \"^5.8.3\"\r\n      }\r\n    },\r\n    \"node_modules/typescript\": {\r\n      \"version\": \"5.8.3\",\r\n      \"resolved\": \"https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz\",\r\n      \"integrity\": \"sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==\",\r\n      \"dev\": true,\r\n      \"license\": \"Apache-2.0\",\r\n      \"bin\": {\r\n        \"tsc\": \"bin/tsc\",\r\n        \"tsserver\": \"bin/tsserver\"\r\n      },\r\n      \"engines\": {\r\n        \"node\": \">=14.17\"\r\n      }\r\n    }\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package-lock.json b/package-lock.json
+--- a/package-lock.json	(revision 7a07e4a85a04e835a060c0c2c09193f79350a898)
++++ b/package-lock.json	(date 1750691190728)
+@@ -9,9 +9,73 @@
+       "version": "1.0.0",
+       "license": "ISC",
+       "devDependencies": {
++        "@playwright/test": "^1.53.1",
+         "typescript": "^5.8.3"
+       }
+     },
++    "node_modules/@playwright/test": {
++      "version": "1.53.1",
++      "resolved": "https://registry.npmjs.org/@playwright/test/-/test-1.53.1.tgz",
++      "integrity": "sha512-Z4c23LHV0muZ8hfv4jw6HngPJkbbtZxTkxPNIg7cJcTc9C28N/p2q7g3JZS2SiKBBHJ3uM1dgDye66bB7LEk5w==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "dependencies": {
++        "playwright": "1.53.1"
++      },
++      "bin": {
++        "playwright": "cli.js"
++      },
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/fsevents": {
++      "version": "2.3.2",
++      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz",
++      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
++      "dev": true,
++      "hasInstallScript": true,
++      "license": "MIT",
++      "optional": true,
++      "os": [
++        "darwin"
++      ],
++      "engines": {
++        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
++      }
++    },
++    "node_modules/playwright": {
++      "version": "1.53.1",
++      "resolved": "https://registry.npmjs.org/playwright/-/playwright-1.53.1.tgz",
++      "integrity": "sha512-LJ13YLr/ocweuwxyGf1XNFWIU4M2zUSo149Qbp+A4cpwDjsxRPj7k6H25LBrEHiEwxvRbD8HdwvQmRMSvquhYw==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "dependencies": {
++        "playwright-core": "1.53.1"
++      },
++      "bin": {
++        "playwright": "cli.js"
++      },
++      "engines": {
++        "node": ">=18"
++      },
++      "optionalDependencies": {
++        "fsevents": "2.3.2"
++      }
++    },
++    "node_modules/playwright-core": {
++      "version": "1.53.1",
++      "resolved": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.53.1.tgz",
++      "integrity": "sha512-Z46Oq7tLAyT0lGoFx4DOuB1IA9D1TPj0QkYxpPVUnGDqHHvDpCftu1J2hM2PiWsNMoZh8+LQaarAWcDfPBc6zg==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "bin": {
++        "playwright-core": "cli.js"
++      },
++      "engines": {
++        "node": ">=18"
++      }
++    },
+     "node_modules/typescript": {
+       "version": "5.8.3",
+       "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz",
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"name\": \"typescript-homeworks\",\r\n  \"version\": \"1.0.0\",\r\n  \"description\": \"\",\r\n  \"main\": \"index.js\",\r\n  \"scripts\": {\r\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\r\n  },\r\n  \"repository\": {\r\n    \"type\": \"git\",\r\n    \"url\": \"git+https://github.com/Sofiia-Skryp/typescript-homeworks.git\"\r\n  },\r\n  \"keywords\": [],\r\n  \"author\": \"\",\r\n  \"license\": \"ISC\",\r\n  \"bugs\": {\r\n    \"url\": \"https://github.com/Sofiia-Skryp/typescript-homeworks/issues\"\r\n  },\r\n  \"homepage\": \"https://github.com/Sofiia-Skryp/typescript-homeworks#readme\",\r\n  \"devDependencies\": {\r\n    \"typescript\": \"^5.8.3\"\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+--- a/package.json	(revision 7a07e4a85a04e835a060c0c2c09193f79350a898)
++++ b/package.json	(date 1750691190725)
+@@ -18,6 +18,7 @@
+   },
+   "homepage": "https://github.com/Sofiia-Skryp/typescript-homeworks#readme",
+   "devDependencies": {
++    "@playwright/test": "^1.53.1",
+     "typescript": "^5.8.3"
+   }
+ }
+Index: node_modules/.package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"name\": \"typescript-homeworks\",\r\n  \"version\": \"1.0.0\",\r\n  \"lockfileVersion\": 3,\r\n  \"requires\": true,\r\n  \"packages\": {\r\n    \"node_modules/typescript\": {\r\n      \"version\": \"5.8.3\",\r\n      \"resolved\": \"https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz\",\r\n      \"integrity\": \"sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==\",\r\n      \"dev\": true,\r\n      \"license\": \"Apache-2.0\",\r\n      \"bin\": {\r\n        \"tsc\": \"bin/tsc\",\r\n        \"tsserver\": \"bin/tsserver\"\r\n      },\r\n      \"engines\": {\r\n        \"node\": \">=14.17\"\r\n      }\r\n    }\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/node_modules/.package-lock.json b/node_modules/.package-lock.json
+--- a/node_modules/.package-lock.json	(revision 7a07e4a85a04e835a060c0c2c09193f79350a898)
++++ b/node_modules/.package-lock.json	(date 1750691190730)
+@@ -4,6 +4,54 @@
+   "lockfileVersion": 3,
+   "requires": true,
+   "packages": {
++    "node_modules/@playwright/test": {
++      "version": "1.53.1",
++      "resolved": "https://registry.npmjs.org/@playwright/test/-/test-1.53.1.tgz",
++      "integrity": "sha512-Z4c23LHV0muZ8hfv4jw6HngPJkbbtZxTkxPNIg7cJcTc9C28N/p2q7g3JZS2SiKBBHJ3uM1dgDye66bB7LEk5w==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "dependencies": {
++        "playwright": "1.53.1"
++      },
++      "bin": {
++        "playwright": "cli.js"
++      },
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/playwright": {
++      "version": "1.53.1",
++      "resolved": "https://registry.npmjs.org/playwright/-/playwright-1.53.1.tgz",
++      "integrity": "sha512-LJ13YLr/ocweuwxyGf1XNFWIU4M2zUSo149Qbp+A4cpwDjsxRPj7k6H25LBrEHiEwxvRbD8HdwvQmRMSvquhYw==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "dependencies": {
++        "playwright-core": "1.53.1"
++      },
++      "bin": {
++        "playwright": "cli.js"
++      },
++      "engines": {
++        "node": ">=18"
++      },
++      "optionalDependencies": {
++        "fsevents": "2.3.2"
++      }
++    },
++    "node_modules/playwright-core": {
++      "version": "1.53.1",
++      "resolved": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.53.1.tgz",
++      "integrity": "sha512-Z46Oq7tLAyT0lGoFx4DOuB1IA9D1TPj0QkYxpPVUnGDqHHvDpCftu1J2hM2PiWsNMoZh8+LQaarAWcDfPBc6zg==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "bin": {
++        "playwright-core": "cli.js"
++      },
++      "engines": {
++        "node": ">=18"
++      }
++    },
+     "node_modules/typescript": {
+       "version": "5.8.3",
+       "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz",
