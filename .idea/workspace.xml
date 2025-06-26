@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbbb4b15-9849-4cbf-b6df-b9a2452bae8e" name="Changes" comment="add fixed hw 4">
+    <list default="true" id="fbbb4b15-9849-4cbf-b6df-b9a2452bae8e" name="Changes" comment="add fixed hw 5">
+      <change afterPath="$PROJECT_DIR$/pages/DashboardPage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/LoginPage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/login.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/example.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/example.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-results/.last-run.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-results/.last-run.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/navigate.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/navigate.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-results/tests-navigate-логін-з-пом-07591-паролем-—-очікувана-помилка/error-context.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2ywc4JZ9gFXahILDItiZgf4hv5z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,8 +53,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#4 on HW6"
+    "git-widget-placeholder": "HW8"
   }
 }]]></component>
   <component name="TaskManager">
